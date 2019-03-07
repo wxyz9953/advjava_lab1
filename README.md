@@ -30,9 +30,9 @@ main函数在Application.java文件内
    public Computer(Mainboard mainboard, CPU cpu, Disk disk, Memory memory, String name, int price)
    ```
 
-3. 实例化计算机
+3. 实例化计算机销售主类
 
-   > 计算机销售主类:
+   > 计算机销售主类构造函数如下:
 
    ```java
    public ComputerStore(List<Computer> computers)
