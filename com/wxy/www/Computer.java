@@ -14,7 +14,7 @@ public class Computer {
 				" 硬盘名为 " + disk.getName() + 
 				" 内存名为 " + memory.getName();
 	}
-
+	
 	public void work() {
 		cpu.workMethod();
 		disk.workMethod();
